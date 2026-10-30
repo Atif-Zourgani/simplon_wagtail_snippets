@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="60%" stop-color="#134e4a"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="accent1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#fb923c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="400" fill="url(#bg1)"/>
+  <polygon points="0,400 300,400 500,0 200,0" fill="#f97316" opacity="0.12"/>
+  <polygon points="950,400 1200,400 1200,0 750,0" fill="#f97316" opacity="0.08"/>
+  <polyline points="80,320 260,320 300,230 340,370 380,260 420,320 1120,320" fill="none" stroke="url(#accent1)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+  <g transform="translate(140,130)">
+    <rect x="-70" y="-14" width="140" height="28" rx="10" fill="#e2e8f0"/>
+    <rect x="-96" y="-34" width="26" height="68" rx="8" fill="#f97316"/>
+    <rect x="70" y="-34" width="26" height="68" rx="8" fill="#f97316"/>
+  </g>
+  <g transform="translate(1040,150)">
+    <path d="M -10 -46 C -10 -70 10 -70 10 -46" fill="none" stroke="#e2e8f0" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="0" cy="10" r="54" fill="#f97316"/>
+    <circle cx="0" cy="10" r="54" fill="none" stroke="#0f172a" stroke-width="4" opacity="0.2"/>
+  </g>
+</svg>

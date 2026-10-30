@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block body_class %}template-homepage{% endblock %}
+
+{% block content %}
+
+<header>
+    <strong>Coach Max</strong>
+    <nav>
+        <a href="/">Accueil</a>
+        <a href="/le-coach/">Le Coach</a>
+        <a href="/nos-cours/">Nos cours</a>
+        <a href="/contact/">Contact</a>
+    </nav>
+</header>
+
+<img class="hero-image" src="{% static 'images/banniere-accueil.svg' %}" alt="Ambiance salle de sport">
+
+<section class="hero">
+    <h1>Reprenez le contrôle de votre forme physique</h1>
+    <p>
+        Coach Max vous accompagne avec des séances adaptées à votre niveau,
+        que vous débutiez ou que vous cherchiez à vous dépasser. Cardio,
+        renforcement musculaire, mobilité : un programme pensé pour vous.
+    </p>
+</section>
+
+{% endblock content %}

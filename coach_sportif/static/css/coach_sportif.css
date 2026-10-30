@@ -1,0 +1,106 @@
+:root {
+    --navy: #0f172a;
+    --navy-light: #1e293b;
+    --orange: #f97316;
+    --orange-light: #fb923c;
+    --text-light: #f8fafc;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: var(--navy);
+    background: var(--text-light);
+}
+
+header {
+    background: var(--navy);
+    color: var(--text-light);
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header strong {
+    font-size: 1.3rem;
+    letter-spacing: 0.02em;
+}
+
+header nav a {
+    color: var(--text-light);
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-weight: 600;
+}
+
+header nav a:hover {
+    color: var(--orange-light);
+}
+
+.hero-image, .page-image {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    display: block;
+}
+
+.hero {
+    padding: 3rem 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    color: var(--navy);
+}
+
+main, .content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.image-placeholder {
+    width: 100%;
+    max-width: 500px;
+    height: 320px;
+    margin: 1.5rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--navy-light);
+    color: var(--text-light);
+    border: 3px dashed var(--orange);
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.cours-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    gap: 1.5rem;
+}
+
+.cours-card {
+    background: var(--navy-light);
+    color: var(--text-light);
+    border-radius: 8px;
+    padding: 1.5rem;
+    border-left: 5px solid var(--orange);
+}
+
+.cours-card h3 {
+    margin-top: 0;
+    color: var(--orange-light);
+}
+
+address {
+    font-style: normal;
+}
